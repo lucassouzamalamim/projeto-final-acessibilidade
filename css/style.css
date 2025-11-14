@@ -1,0 +1,11 @@
+/* Estilo geral para links */
+a {
+    color: #0066cc;
+}
+
+/* GARANTE O FOCO VISÍVEL PARA NAVEGAÇÃO POR TECLADO */
+a:focus, button:focus, input:focus {
+    outline: 3px solid #005fcc;
+    outline-offset: 2px;
+    border-radius: 4px; /* Opcional, para ficar mais bonito */
+}
